@@ -17,7 +17,7 @@ START:
     REP MOVSB       ;Repeat Move String Byte
     
     MOV AH, 04H
-    INT 21H         ;Program Halt
+    INT 21H         ;Program Halts and Gives back control to OS
 
 CODE ENDS
      END START
